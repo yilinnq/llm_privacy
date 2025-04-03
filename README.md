@@ -12,6 +12,10 @@ In partnership with ASML Lab, Berkman Klein Center.
 
 ##  Functionalities
 
+### Setup
+- Clone the repo
+- Add an `.env` file at the root of the repository containing `GEMINI_API_KEY=`
+
 ### User Q&A
 - **Description**: A pipeline that:
     1. Loads the processed .txt version of the policy from the JSON file we saved in `src/data_processing/policy_links`.
