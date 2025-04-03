@@ -37,14 +37,14 @@ In partnership with ASML Lab, Berkman Klein Center.
 - **Example**
 <p align="center">
   <figure>
-    <img src="screenshots/qa_example.png" width="500" title="Example for Q&A - Tiktok">
+    <img src="screenshots/qa_example.png" width="800" title="Example for Q&A - Tiktok">
     <figcaption align="center"><i>Example for Q&A - Tiktok</i></figcaption>
   </figure>
 </p>
 
 <p align="center">
   <figure>
-    <img src="screenshots/qa_example2.png" width="500" title="Example for Q&A - Pinterest">
+    <img src="screenshots/qa_example2.png" width="800" title="Example for Q&A - Pinterest">
     <figcaption align="center"><i>Example for Q&A - Pinterest</i></figcaption>
   </figure>
 </p>
