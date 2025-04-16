@@ -1,10 +1,11 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import os
 import argparse
 import pandas as pd
 import requests
 import google.generativeai as genai
+import numpy as np
 
 # ==== Step 1: Configure Gemini ====
 API_KEY = os.getenv("GEMINI_API_KEY")
@@ -20,7 +21,7 @@ def fetch_text_from_url(url):
     response.raise_for_status()
     return response.text
 
-def chunk_text_by_paragraph(text, max_chars=2000, min_words=4):
+def chunk_text_by_paragraph(text, max_chars=1000, min_words=4):
     raw_paragraphs = [p.strip() for p in text.split("\n\n")]
     # Filter out short paragraphs to reduce noise
     paragraphs = [p for p in raw_paragraphs if len(p.split()) >= min_words]
@@ -30,14 +31,19 @@ def chunk_text_by_paragraph(text, max_chars=2000, min_words=4):
 
     for para in paragraphs:
         if len(current_chunk) + len(para) + 2 < max_chars:
-            current_chunk += para + "\n\n"
+            current_chunk += para.strip() + "\n"
         else:
             if current_chunk:
                 chunks.append(current_chunk.strip())
-            current_chunk = para + "\n\n"
+            current_chunk = para + "\n"
+
 
     if current_chunk:
         chunks.append(current_chunk.strip())
+    
+    # for chunk in chunks:
+    #     print(chunk)
+    #     print("--------------------------------------------")
 
     return chunks
 
@@ -54,21 +60,45 @@ QUESTIONS = {
 }
 
 # ==== Step 4: Vectorize and select relevant chunks ====
-def retrieve_relevant_chunks(chunks, question, top_k=8):
-    corpus = chunks + [question]
-    vectorizer = TfidfVectorizer(stop_words="english")
-    tfidf_matrix = vectorizer.fit_transform(corpus)
-    similarities = cosine_similarity(tfidf_matrix[-1], tfidf_matrix[:-1]).flatten()
+# def retrieve_relevant_chunks(chunks, question, top_k=8):
+#     corpus = chunks + [question]
+#     vectorizer = TfidfVectorizer(stop_words="english")
+#     tfidf_matrix = vectorizer.fit_transform(corpus)
+#     similarities = cosine_similarity(tfidf_matrix[-1], tfidf_matrix[:-1]).flatten()
+#     top_indices = similarities.argsort()[::-1][:top_k]
+#     return [chunks[i] for i in top_indices if similarities[i] > 0.02]
+def embed_chunks(chunks, model):
+    # Convert all chunk embeddings once
+    embeddings = model.encode(chunks, convert_to_tensor=True)
+    return embeddings  # torch.Tensor
+
+
+
+def retrieve_relevant_chunks(chunks, chunk_embeddings, question, model, top_k=8, similarity_threshold=0.001):
+    question_embedding = model.encode(question, convert_to_tensor=True)
+    
+    # Compute cosine similarity using numpy for compatibility
+    similarities = cosine_similarity(
+        question_embedding.cpu().numpy().reshape(1, -1),
+        chunk_embeddings.cpu().numpy()
+    ).flatten()
+
     top_indices = similarities.argsort()[::-1][:top_k]
-    return [chunks[i] for i in top_indices if similarities[i] > 0.02]
+    return [chunks[i] for i in top_indices if similarities[i] > similarity_threshold]
+
 
 # ==== Step 5: RAG + Similarity-based summarization ====
 def rag_summarize_with_similarity(policy_chunks, company, original_url):
     final_summary = []
     references = []
 
+    embedder = SentenceTransformer("all-MiniLM-L6-v2")
+    chunk_embeddings = embed_chunks(policy_chunks, embedder)
+
     for label, question in QUESTIONS.items():
-        relevant_chunks = retrieve_relevant_chunks(policy_chunks, question)
+        # relevant_chunks = retrieve_relevant_chunks(policy_chunks, question)
+        relevant_chunks = retrieve_relevant_chunks(
+        policy_chunks, chunk_embeddings, question, embedder)
         
         if not relevant_chunks:
             final_summary.append(f"{label}\nNot mentioned.")
@@ -87,7 +117,7 @@ Text:
 \"\"\"
 {combined_context}
 \"\"\"
-Please Provide an answer grounded in the original text and not fabricate information.
+Please Provide a logical and organized answer grounded in the original text and do not fabricate information.
 """
 
         response = model.generate_content(prompt)
@@ -129,6 +159,7 @@ if __name__ == "__main__":
         print(link)
         print("\n=== Source References ===")
         print(refs)
+        # print("end")
     else:
         print("No summary could be generated.")
 
