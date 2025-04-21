@@ -1,0 +1,175 @@
+
+
+
+
+Privacy Policy - Friendster
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Friendster Privacy Policy 
+Last Modified: January 3, 2024
+Our Privacy Policy for users of our website friendster.com and related websites (collectively, the Ã¢Â€ÂœWebsiteÃ¢Â€Â), including any content, functionality and services offered on or through the Website, the Friendster platform, mobile application or any of our other products or services (collectively, the Ã¢Â€ÂœServicesÃ¢Â€Â), whether or not you register as a user. 
+This Privacy Policy sets out our commitment to protecting the privacy of Personal Information provided to us or otherwise collected by us for our Services. 
+This Privacy Policy also forms part of the Terms of Service for using our Services.
+In this Privacy Policy Ã¢Â€ÂœyouÃ¢Â€Â means any party that provides Personal Information to us and Ã¢Â€Âœwe,Ã¢Â€Â Ã¢Â€ÂœusÃ¢Â€Â and Ã¢Â€ÂœFriendsterÃ¢Â€Â means Friendster Labs Inc.
+            
+Who We Are.
+Friendster is a U.S.-based company with headquarters in Delaware.
+            
+We have developed this Privacy Policy to explain how we collect, store, use, process and disclose your Personal Information. 
+Please read this Privacy Policy carefully. By providing Personal Information to us, you consent to our collection, holding, use and disclosure of your Personal Information in accordance with this Privacy Policy. Please contact us if you have questions. Our contact details are at the end of this Privacy Policy. If you do not wish to provide Personal Information to us, then you do not have to do so; however, you may not be able to use our Services.
+This Privacy Policy sets out how we protect an individualÃ¢Â€Â™s Personal Information and provides information on:
+
+
+The general categories of information we collect; 
+Why we collect an individualÃ¢Â€Â™s Personal Information;
+How Personal Information will be used, and who it will be shared with; 
+How we store, transfer and retain Personal Information; 
+Our commitment to security; 
+Privacy and security of User Submitted Content; and
+Your rights in relation to the Personal Information we collect.
+
+
+2. Definitions Used Throughout this Privacy Policy.
+
+Anonymous Data means data, including aggregated and de-identified data, that is not associated with or linked to your Personal Information; Anonymous Data does not, by itself, permit the identification of individual persons.
+Personal Information is any information that allows someone to identify you individually, including, for example, your name, email address, and any other non-public information about you that is associated with or linked to any of the foregoing.
+User means any person who uses our Services such as by creating an account, using the Services, or contacting us for information. A User may also be a person who visits or browses our Website. 
+User Submitted Content means any of the content, information or material that you add or input in your use of the Services including the Personal Information of third parties that you may submit. Friendster does not own your User Submitted Content; User Submitted Content is owned by you. By using the Services, you take full responsibility for obtaining any and all applicable third party consents, securing and safeguarding your User Submitted Content and all other restrictions regarding User Submitted Content as set forth in our Terms of Service.
+3. What Type of Information Is Collected?
+By using our Services when you create an account, you provide us with certain information including personally identifiable information that can be used to contact or identify you ("Personal Information.") We collect Personal Information and Anonymous Data as described below. 
+A. Information You Provide To Us. When you create an account, you provide us with the following:
+
+First and Last Name
+Email address
+Username
+IP address (which may or may not be considered Personal Information depending on the laws of your jurisdiction)
+Your responses to any surveys, questionnaires, or feedback should you choose to participate
+User Submitted Content should you choose to input any in your use of the Services
+
+
+B.  Information Collected via Technology. As you navigate through and interact with our Services, we may use automatic data collection technologies to collect certain information about your equipment, browsing actions, and patterns, including:
+
+Cookies and other similar technologies. We may place cookies on your device to collect anonymous data related to your use of the Services. In general, a cookie is a small file placed on your device that can be used to help recognize your browser across different web pages, websites, and browsing sessions. We may use cookies to provide certain features of the Services. It may be possible to refuse to accept cookies by activating the appropriate setting on your device. However, if you select this setting you may be unable to access certain features of the Services. We may also use other technologies to tailor the Services to you, such as web beacons (also referred to as clear gifs, pixel tags and single-pixel gifs) that permit Friendster, for example, to track how visitors interact with the Services and for other statistics related to the Services (such as recording the popularity of certain content and verifying system and server integrity).
+Log Information. We may automatically collect and store certain information in our server logs when you use the Services, including details about how you used the Services, IP address, and information specific to your device (such as system activity, hardware settings, browser type, and browser language).
+Device Identifiers. We may collect information about your device, such as your operating system, hardware version, device settings, file and software names and types, mobile network information and device identifiers. This helps us measure how the Services are performing and improve the Services for you on your particular device.
+Analytics Data. We may also collect analytics data, or use third-party analytics tools, to help us measure traffic and usage trends for the Services.
+
+
+C.   Information Collected from Third-Party Companies. In the Services you may find links to third-party websites. You understand that when you click on these links any data which you provide afterwards is subject to that third partyÃ¢Â€Â™s privacy policy and not to FriendsterÃ¢Â€Â™s. Consequently, Friendster takes no responsibility for the content, safety or security of any third-party website and recommends you consult these third partiesÃ¢Â€Â™ policies before sending Personal Information to their websites. 
+You may choose not to give us your information including your Personal Information. However, without your information, we may not be able to provide you with the Services or respond to your questions.
+     
+4. How Do We Use Your Information?
+We use information that we collect about you or that you provide to us, including any Personal Information, to:
+
+Provide you with our Services, and any other information, products or services that you request from us.
+Present our Services and their contents to you.
+Fulfill any other purpose for which you provide it.
+Give you notices about your account.
+Carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including, if applicable, for billing and collection.
+Improve the Services through research, surveying, and engaging with you, for example, by sending you communications for these purposes.
+Prevent and detecting fraud.
+Debug and repair errors in our Services in order to maintain and improve the quality and security of our Services.
+Notify you when updates to our Services are available, and about changes to any products or services we offer or provide through the Services.
+Contact you about our products and services that may be of interest to you.
+Create reports, analysis or similar services for the purposes of our research and our business development.
+
+
+Additionally, we may use information that we collect about you or that you provide to us in any other way we may describe when you provide the information or for any other purposes with your consent.
+Following termination or deactivation of an account, we may retain information and content for backup, archival, audit or other business purposes, or otherwise in accordance with applicable laws. We may maintain anonymized, de-identified or aggregated data, including usage data, for analytics purposes. If you have any questions about data retention or deletion, please email help@friendster.com.
+For information about how you can opt out of certain uses of your information, see Your Choices About Our Use and Disclosure of Your Information below.
+
+5. How Do We Share Your Personal Information and Who Do We Disclose It To?
+
+Friendster is not in the business of sharing or selling your Personal Information to advertisers or third parties. We consider this information to be a vital part of our relationship with you. We only share this information as described below:
+
+To our subsidiaries and affiliates.
+To contractors, vendors, service providers and other third parties we use to support our business and who are bound by contractual obligations to keep Personal Information confidential and use it only for the purposes for which we disclose it to them.
+To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of our assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which personal information held by us is among the assets transferred.
+To fulfill the purpose for which you provide it.
+For any other purpose disclosed by us when you provide the Personal Information.
+With your consent.
+To comply with any court order, law or legal process, including to respond to any government or regulatory request.
+To enforce or apply our Terms of Service and other agreements.
+If we believe disclosure is necessary or appropriate to protect the rights, property, or safety of Friendster, our customers or others. This includes exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.
+
+
+
+We may also share aggregated, non-personally identifiable information publicly, including with users, partners or the press in order to, for example, demonstrate how the Services are used, evaluate industry trends, or to create our marketing materials. Any aggregated information shared this way will not contain any Personal Information.
+6. Your Choices About Our Use and Disclosure of Your Information.
+We strive to provide you with choices regarding the Personal Information you provide to us. This section describes mechanisms we provide for you to control certain uses and disclosures of your information.
+
+Tracking Technologies. You can set your browser to refuse all or some browser cookies, or to alert you when cookies are being sent. If you disable or refuse cookies or block the use of other tracking technologies, some parts of the Services may then be inaccessible or not function properly.
+Promotional Offers. You may Ã¢Â€Âœopt-outÃ¢Â€Â of receiving newsletter, marketing and promotional emails from Friendster at any time by using the opt-out mechanism that is contained in each such email and by any other mechanisms that the Services may provide. You can also opt-out by sending us an email stating your request to help@friendster.com. Please note that, if you deactivate your account, you may continue to receive newsletters, marketing and promotional emails from us unless you subsequently exercise your opt-out options above. 
+We may also use Google Analytics to help us understand how our customers use the Website -- you can read more about how Google uses your Personal Information here: https://www.google.com/intl/en/policies/privacy/. You can also opt-out of Google Analytics: https://tools.google.com/dlpage/gaoptout. 
+Please note that we do not alter our WebsiteÃ¢Â€Â™s data collection and use practices when we see a Ã¢Â€ÂœDo Not TrackÃ¢Â€Â signal from your browser.
+If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us at help@friendster.com.
+Additionally, if you are a European resident, we note that we are processing your information in order to fulfill contracts we might have with you (for example if you create an account with us), or otherwise to pursue our legitimate business interests listed above. Additionally, please note that your information will be transferred outside of Europe, including to the United States. 
+
+7. Accessing and Correcting Your Personal Information.
+You may review and update your account information by logging into your account and visiting your account profile. You may also send us an email at help@friendster.com to request access to, correct or delete any Personal Information that you have provided to us. We may not accommodate a request to change information if we believe the change would violate any law or legal requirement or cause the information to be incorrect.
+8. How We Store, Transfer and Retain Your Personal Information. 
+Friendster is a U.S.-based company. Regardless of where you use our Services or provide information to us, the information may be transferred to and maintained on servers located inside and outside the U.S., including to countries outside the European Economic Area (Ã¢Â€ÂœEEAÃ¢Â€Â). By using our Services you acknowledge, agree and consent to your information, including your Personal Information, being processed outside your jurisdiction, including in countries and jurisdictions that may not provide the same level of protection. Such transfers will only take place for the specific purposes mentioned in this Privacy Policy. 
+Friendster retains your Personal Information only for as long as is necessary for the purposes set out in this Privacy Policy. You can ask us to delete your Personal Information at any time by contacting us. We will delete all Personal Information including all User Submitted Content associated with you within two weeks of receiving your request.  
+Friendster shall not be liable to the User or any person for the deletion or failure to store any Personal Information including User Submitted Content arising from the account holderÃ¢Â€Â™s decision to terminate their account or otherwise. This includes FriendsterÃ¢Â€Â™s right to delete User Submitted Content that violates our Terms of Service.
+9. Data Security.
+We have implemented measures designed to secure your Personal Information from accidental loss and from unauthorized access, use, alteration and disclosure. All Personal Information you provide to us is stored on our secure servers behind firewalls. Any Personal Information you provide to us through your use of the Services will be encrypted using industry standard technology. We cannot, however, ensure or warrant the security of any information, including Personal Information, that you transmit to Friendster or guarantee that your information on the Services may not be accessed, disclosed, altered, or destroyed by a breach of any of our physical, managerial, or technical safeguards.
+The safety and security of your Personal Information also depends on you. Where we have given you (or where you have chosen) a password for access to the Services, you are responsible for keeping this password confidential. We ask you not to share your password with anyone.
+Unfortunately, the transmission of information via the Internet is not completely secure.  Although we do our best to protect your Personal Information, we cannot guarantee the security of your Personal Information transmitted through the Services. Any transmission of Personal Information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures we provide.
+10. ChildrenÃ¢Â€Â™s Privacy.
+Friendster does not knowingly collect Personal Information from children under the age of 13. If you are under the age of 13, please do not use the Services. If you have reason to believe that a child under the age of 13 has used the Services of Friendster, please contact us, and we will take steps to delete that information from our databases and servers.
+11. Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on this page. We will let you know via email and/or a prominent notice on our website, and update the Ã¢Â€Âœeffective dateÃ¢Â€Â at the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+12. Who to Contact for Data and Privacy Inquiries and Requests.
+Friendster has appointed an internal data protection officer for you to contact if you have any questions or concerns about our Personal Information policies. Our data protection officerÃ¢Â€Â™s name and contact information are as follows:
+Mike Carson
+mike@friendster.com
+
+ 
+ 
+
+
+
+
+
+Give Us Your Feedback - Help Improve Friendster
+
+
+Help & Support
+About Friendster
+Terms of service
+Privacy policy
+
+
+Â© 2024 Friendster
+
+
+
+
+
+

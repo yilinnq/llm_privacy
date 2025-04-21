@@ -1,0 +1,319 @@
+Skip to navigation
+Skip to sidebar
+Skip to main content
+The data we collect, how it's used, and who we share it with
+We care about your privacy and want to help you understand how we collect, use, and share your personal information.
+
+Show me how the Privacy Center works →
+Hero image
+Kickstarter logo
+Privacy Policy
+Cookie Policy
+Terms of Use
+Copyright and DMCA Policy
+Trademark Policy
+Kickstarter Applicant Privacy Notice
+Kickstarter CultureCon 2024 Ticket Giveaway Official Rules
+Privacy Policy
+Effective Date:April 15, 2024
+Thanks for visiting Kickstarter’s Privacy Policy (the “Policy”). We’ve updated our Policy as of August 6, 2024 to reflect certain changes in data privacy laws and our use of personal information.
+
+Thanks for using Kickstarter, and please let us know if you have any questions or feedback.
+
+Before you use or submit any personal information to Kickstarter, please review this Policy carefully.
+
+Definitions (these terms are not always capitalized throughout but these meanings apply)
+
+Backers. Backers are Kickstarter’s users and others who pledge to bring projects to life.
+
+Collaborators. Collaborators are other parties that Creators can appoint to help manage their project, including by providing project marketing, updating project information, and coordinating reward fulfillment. These Collaborators may be able to access personal information available to Creators (including Backers’ names, email addresses, pledge amounts, reward selections, messages, and survey responses), and are required to treat Backers’ personal information with the same care and respect as Creators are.
+
+Creators. Creators are other parties who run projects on the Kickstarter platform. Backers pledge to support various Creator projects hoping to get a reward.
+
+Personal information. Any information that identifies you directly or indirectly in combination with other data about you. Personal information does not include information that is publicly available, de-identified, or aggregated. 
+
+Changes to this Policy
+
+We may update this Policy from time to time as privacy laws or our practices change. We encourage you to review this Policy periodically. If you keep using Kickstarter after a change, we will assume you accept the current version of the Policy. This Policy may be translated into another language for your convenience; in the event of a conflict between the English version and any translations, the English version shall control.
+
+Who We Are
+
+Kickstarter, PBC (together with The Creative Independent, LLC, Project Partners, LLC, and their parents, subsidiaries, affiliates, agents, representatives, consultants, employees, officers, and directors—collectively, “Kickstarter,” “we,” or “us”) provides services that help people bring creative projects to life (our “Services”). Our main service is a funding platform for creative projects. We are a Public Benefit Corporation based in New York, New York, United States.
+
+How this Policy Applies
+
+This Policy describes the personal information we collect from you, how we use that personal information, and our reasons for doing so. It also explains when and how personal information may be shared and your rights and choices regarding the personal information you provide to us.
+
+This Policy is incorporated into and part of Kickstarter’s Terms of Use. 
+
+Personal Information We Collect
+
+Kickstarter collects personal information in several ways, primarily:
+
+When Creators, Collaborators, and Backers provide personal information directly to us (such as when setting up an account);
+
+When we passively collect personal information from you (such as from your interaction with our website or mobile app); and
+
+From other parties (such as Kickstarter’s trusted payment provider).
+
+To create an account on Kickstarter and use our Services, we collect and process certain personal information. Depending on your use of our Services, this personal information may include:
+
+Personal information you provide by completing forms on Kickstarter — for example, your name, email and postal addresses, telephone number, country of residence, login, and password details. We may ask for this information if you register as a user of the Services, subscribe to our newsletters, complete surveys, or submit content to Kickstarter. You also may choose to login in to Kickstarter using your existing Apple or Facebook account. When you do this, and in compliance with the permissions you grant, we may be able to access information about you from your Apple or Facebook account, such as the email address or profile picture associated with that account.
+
+Any personal information you include in your communications to Kickstarter, such as when you ask for support, send us questions or comments, or report a problem with our Services.
+
+Personal information that you submit on or to Kickstarter’s platform, such as comments, contributions to discussions, or messages to other users.
+
+Personal information you provide for identity verification purposes when launching a project, which can include your legal name, date of birth, and business name and Tax ID for business entities. In some cases, our payment processor will request that you provide us with a secure upload of an identity document (such as your passport, driver’s license, or other government-issued ID).
+
+Details of any transactions you make through the Services, such as who you paid, the date of payment, and what reward you were provided. Kickstarter partners with Stripe for payment processing, and the payment information you submit is collected and used by Stripe in accordance with their privacy practices (read Stripe’s Privacy Policy). Kickstarter only stores the last four digits of your credit card or bank account (as applicable), expiration date, and country, which we require for tax, regulatory, and security purposes. We do not store full payment card or bank account details.
+
+Information about your interactions with Kickstarter, including use of our website and mobile app, such as your IP address, approximate location information, your device identifier, the type of device or browser you use, and your actions during your visit, including how you navigate our website or mobile app. For more information about our use of cookies and other tracking technologies, see our Cookie Policy.
+
+When you use our mobile app, depending on the settings you select, we may be able to collect your mobile device identifier and information about your approximate location and network connections, receive usage data from your device, run at device startup, and prevent your device from going to sleep. 
+
+Demographic information, such as your age, gender identity, sexual orientation, race, and ethnicity, when you choose to provide this information to help Kickstarter equitably support all Creators and represent a diverse population in our research. Typically, this information is only processed when you voluntarily choose to provide it to us. For example, Kickstarter sends optional Creator surveys that collect Creator demographics, including things like gender identity and sexual orientation. The results of these demographic surveys are used by Kickstarter to enhance the Creator experience. The demographic information we collect includes personal information that may qualify as sensitive personal information under various privacy laws.
+
+You may decline to provide us with your personal information. However, this can limit your ability to register for an account, create or back a project, or otherwise use our Services. You may review, update, or delete your account through your account settings.
+
+Cookies and Other Tracking Technologies
+
+Kickstarter collects data about website use through our own tracking technologies and tracking technologies provided by our vendors, such as those that help us with data analytics, marketing Kickstarter projects, and content delivery. Some of this data may be considered personal information.
+
+Kickstarter commonly uses cookies and pixels. Cookies are small text files that may be saved by your internet browser when you visit a website. These text files then store information about your use of Kickstarter’s Services that can be retrieved from your device. Pixels are snippets of code or tiny invisible images embedded in email and websites that help us learn how you interact with the content (for example, if you clicked on a link or an image).
+
+Some tracking technology use is necessary for website functionality. These tracking technologies can also support website security, analytics, and an improved overall user experience. You may be able to use your browser settings to block tracking technologies, but blocking tracking technologies necessary for our website functionality may prevent you from using our Services.
+
+Please see Kickstarter’s Cookie Policy for more information about our tracking technology use, including your choices regarding our use of tracking technologies.
+
+How We Use Personal Information
+
+We use the personal information we collect for various purposes, including to:
+
+register and service your account with us;
+
+send you transactional communications about your projects or pledges;
+
+provide customer service and respond to your requests for information;
+
+show you projects that may be of interest to you;
+
+send you marketing or promotional communications;
+
+analyze the use and functionality of our website and app;
+
+improve and develop the quality of your online experience, including through personalization;
+
+enhance the effectiveness of our Services;
+
+conduct research and analysis;
+
+effectively manage our business;
+
+prevent fraud and abuse; and
+
+monitor and improve the security of our Services.
+
+We also use personal information we collect as reasonably necessary for our legal compliance, to maintain appropriate records for administrative purposes, to protect our rights and interests or those of others, to resolve disputes, to enforce our policies, to prevent harm, and for any other purposes permitted by applicable laws or for which you provide your consent.
+
+How We Share Personal Information
+
+There are certain circumstances in which Kickstarter may share your personal information with others. Kickstarter will seek to share the minimum amount of personal information necessary when your personal information is shared with others. The usual circumstances in which Kickstarter may share your personal information are as follows:
+
+Kickstarter may share your personal information with any other party based on your consent or instruction to do so.
+
+We may share your personal information with the vendors who perform services on our behalf, including recruiting, marketing, customer support, legal services, data storage, data analysis, and helping us detect and protect against fraud, illegal activities, malicious behaviors, security threats, and other misuses of our Services.
+
+We may share your personal information with current and future affiliated companies, including as part of a business transaction, such as corporate divestiture, merger, consolidation, acquisition, reorganization, or other disposition of all or any portion of our business or our affiliates, including in connection with a bankruptcy or similar proceeding.
+
+We may use and disclose any personal information as reasonably necessary to comply with law and legal requirements, cooperate with and respond to law enforcement requests, exercise or defend our legal rights or those of others, or as otherwise required by applicable law, court order, or governmental regulations. 
+
+Any personal information we collect may be provided to our professional advisors, including accountants, auditors, consultants, and lawyers, when reasonably necessary for our professional advisors to perform services for us and give us appropriate advice.
+
+Personal Information Shared Publicly on Kickstarter
+
+When you create an account, we create a basic profile page for you on Kickstarter, containing your username, the date the account was created, and the number of projects you have backed or launched. By default, your profile is set to private and will only publicly display your username and avatar, date your account was established, and number of projects backed or launched. You can choose to make it public in your account settings. Your username appears, for example, with the comments you post and messages you send on Kickstarter and, if your profile is set to public, people can click your username to view more information about you. If you make your profile public, others will be able to see the following things:
+
+the account username you select, and the date the account was created;
+
+any personal information you choose to add to your profile (such as your avatar, bio, location, time zone, or website);
+
+projects you’ve backed (but not pledge amounts or rewards chosen);
+
+projects you’ve created;
+
+comments you’ve posted on Kickstarter;
+
+if you have “Liked” a project update; and
+
+other fields that we may add from time to time.
+
+If you are a Backer and don’t want others to see your real name or image on a project’s Community tab, you may choose an avatar or name that is not identifiable (for example, CatLuvr88 or an image of a cat). You can also modify or delete certain personal information associated with your account (such as your username, avatar, bio, and location) through your account settings, where you can also change your privacy settings. You may delete your entire account by submitting a privacy request via legal.kickstarter.com.
+
+Creators are asked to verify their identities before launching a project. Once this has been done, the Creator’s Verified Name will be publicly displayed on their account profile and on any projects they launch. Collaborators are not verified, and are instead invited by Creators and sign up for a Kickstarter account (more information on Collaborators can be found here).
+
+Personal Information Shared with Creators and Collaborators
+
+Creators and Collaborators are central to Kickstarter’s Services as they provide the projects that drive our mission. Given that responsibility, Creators and Collaborators are bound by this Policy and may only use personal information they receive from Kickstarter for fulfillment purposes. When “Creator” is used in this section, we are also referring to their Collaborators.
+
+When a Backer pledges to back a project, the Creator will receive personal information about the Backer, including the Backer’s name and amount of pledge. If the project is successful, Creators receive additional Backer personal information, such as an email address and other profile details. This allows Creators to send out a survey directly requesting any information necessary to provide rewards the Backer requests, such as a mailing address or t-shirt size. 
+
+Creators are required to keep Backers’ personal information confidential and may only use Backers’ personal information they get from Kickstarter as strictly necessary to communicate with Backers directly and provide rewards. Creators may not sell any personal information or use it for targeted advertising purposes. 
+
+Creators never receive Backers’ credit card details or other payment information. Creators also should not ask for personal information that isn’t necessary to provide your reward and should never request sensitive personal information, such as an identification number or payment information. Contact us at support@kickstarter.com if you receive a request for personal information that seems inappropriate or excessive.
+
+Collaborators are other parties that Creators can appoint to help manage their project. These Collaborators may be able to access the personal information made available to Creators and are similarly bound by this Privacy Policy and required to treat Backers’ personal information with the same care and respect as Creators are. Any Creator that chooses to add a Collaborator to a project must only do so in a way that complies with all other Kickstarter personal information sharing and privacy practices. Regardless of whether the Collaborator is one person or a fulfillment company, Collaborators are prohibited from using Backer personal information provided to them by Creators for any purpose other than fulfillment and in compliance with this Privacy Policy. 
+
+Creators and Collaborators may also receive routine traffic analytics about their project pages and project marketing.
+
+Kickstarter reserves the right to take disciplinary action(s), including suspension, for any Creator or Collaborator found to be in violation of any requirement or limitation set out in this Policy.
+
+Links to Other Websites and Services
+
+Kickstarter’s website and app may include links to other websites or services whose privacy practices may differ from ours. When you follow a link to a website or service off of the Kickstarter platform, the privacy policy and other disclosures for that website or service will govern their processing of your personal information. 
+
+Children’s Personal Information
+
+Kickstarter does not knowingly collect personal information from people under the age of 16. People under the age of 16 are not permitted to register for a Kickstarter account or pledge to back projects. You must be at least 18 years old to run a project as a Creator or to be appointed as a Collaborator.
+
+If you believe that someone under the age of 16 has provided us with personal information or that someone under 18 is a Creator or Collaborator on a Kickstarter project, please contact us at dpo@kickstarter.com. If we learn that we have received personal information from someone under the age of 16, we will delete such personal information in accordance with applicable law. We will take appropriate actions to remove projects run by people under the age of 18.
+
+Privacy Rights and Choices
+
+If at any time, you believe that your personal information has been used in violation of this Policy, you may report your concerns to us by emailing dpo@kickstarter.com. 
+
+User Account Settings. All Kickstarter users can manage personal information in their account settings. From your account, you can request a downloadable copy of your personal information from Kickstarter. You may also do so directly by visiting legal.kickstarter.com. To correct or update the personal information you’ve provided to us, please log in and update your profile information. You may also delete your user account from within your account settings, or by visiting legal.kickstarter.com. We may retain personal information when required by law or as necessary for our business following an account deletion request.
+
+Privacy Rights under Certain Laws. Users in certain locations, such as the European Economic Area, United Kingdom, and California, are given certain privacy rights regarding their personal information. These rights include the right to know what personal information we process about you and to request access to, correction of, and deletion of your personal information. You also may have the right to ask for a portable copy of your personal information or to object to or ask that we restrict our processing of your personal information. If we rely on your consent for personal information processing, you may withdraw your consent at any time. Kickstarter will not discriminate against any user for exercising privacy rights provided by applicable law.
+
+If you would like further information regarding your legal rights under applicable data privacy law or would like to exercise any of them that are relevant to you, contact us at dpo@kickstarter.com. In your email, please include your full name, Kickstarter username, zip code or postal code, the email address at which you prefer to be contacted and, if different, the email address associated with your Kickstarter account, and the privacy right(s) you are requesting, such as the deletion of information related to a particular transaction or the correction of specific information about you. Please monitor your incoming email correspondence in case we have follow-up questions regarding your privacy request.
+
+Certain laws allow an authorized agent acting on your behalf to make privacy requests, which they may do by following the instructions above. If an authorized agent submits a request for you, we may ask you to verify your own identity or confirm the request directly with us.
+
+Subject to appropriate verification of your identity, which may include asking you for additional information to match to information we have, Kickstarter will honor the privacy rights provided to you by applicable law (such as the European Union’s General Data Protection Regulation if you are located in the European Economic Area). You can expect that Kickstarter will respond to your privacy request within the required time period under applicable law, unless we reach out to explain that it will take us longer. If we cannot fulfill your privacy request in whole or in part, we will explain why. It is our policy not to disclose any information in response to a privacy request that may adversely affect the privacy of other persons unless legally required to do so. 
+
+If you have any questions about our response to your privacy request, please contact us at dpo@kickstarter.com. While we will always try to assist when you have concerns about the privacy of your personal information and appreciate an opportunity to do so, if you have concerns about how we manage your personal information or respond to your requests, you may be able to file a complaint with your local data protection authority or privacy regulator.
+
+Our Communications
+
+Kickstarter wants to communicate with you only if you want to hear from us. We try to keep emails to a minimum, and you can unsubscribe from marketing or promotional communications at any time by adjusting your notification settings or by selecting the “unsubscribe” link in any communication you receive. If you download the Kickstarter app, you can manage the notifications you receive on your mobile device in your profile settings. Additionally, to improve our services we may contact you for market research purposes. You always have the choice about whether to take part in our market research. 
+
+Even if you unsubscribe from marketing communications, Kickstarter and our Creators and their Collaborators will still be able to send you communications relating to your transactions and rewards, such as successful projects you have backed. This helps ensure they can provide you with updates on your rewards. We’ll also be able to send you service-related announcements when it’s necessary to do so.
+
+Personal Information Retention
+
+In general, we keep personal information as necessary to provide you with our Services. We will typically retain your personal information as long as your account is active and for a reasonable period of time afterward. We will retain and use personal information as permitted by law, as necessary for any purposes explained in this Policy and any reasonably compatible purposes, and to the extent necessary to comply with our legal obligations, resolve disputes, enforce our agreements, and protect Kickstarter’s legal rights and those of our users. Where your personal information is used for more than one purpose, we will retain it until the last retention period is met.
+
+In determining our retention periods, we consider factors such as our legal and contractual obligations, as well as the amount, nature, and sensitivity of the personal information, the purposes for which we process the personal information, and the potential risk of harm that may result from unauthorized processing of the personal information. 
+
+Personal Information Security
+
+The security of your personal data is important to us. We look to good industry practices to protect the data we collect and maintain, including using Transport Layer Security (TLS) to encrypt information as it travels over the internet. No method of transmission over the internet or electronic storage is completely secure, so Kickstarter cannot guarantee the security of your personal information. Your account information is protected by a password, which you should choose carefully and keep secure. We encourage all users to enable two-factor authentication in account settings to further protect their account. We also encourage the responsible disclosure of vulnerabilities of our Services by emailing security@kickstarter.com, and we will invite valid disclosures to our bug bounty program.
+
+Notice to Our Users from the United States
+
+Over the past several years, more than a dozen states have passed privacy laws to protect consumers in those states. We recognize the privacy rights of consumers residing in any state with an active consumer privacy law that is applicable to Kickstarter. If you are a resident of a state with an active consumer privacy law, and you want to ask for additional information about your rights, you may contact us at dpo@kickstarter.com. 
+
+Sales of Personal Information and Targeted Advertising
+
+State privacy laws may permit consumers to opt out of the sale of personal information, including when that personal information is provided to others in exchange for non-monetary value or to facilitate targeted advertising. When Kickstarter permits others to collect Personal Information about you on our website or mobile app, we take steps to limit their use of your Personal Information. We recommend that you review our Cookie Policy to find out about additional steps you can take to limit the collection of Personal Information through tracking technologies. If you would like us to remove your Personal Information from use in our marketing efforts, please contact us at dpo@kickstarter.com.
+
+Additional Information for California Residents
+
+This information supplements other parts of this Policy and provides additional information to California residents in accordance with the requirements of the California Consumer Privacy Act. Here we provide additional information about our personal information processing practices in the previous 12 months and our current personal information collection practices. Please read this information in conjunction with the other portions of our Policy. For instance, we have described the personal information we collect, the sources from which we collect personal information, and our purposes for that collection at the beginning of this Policy. We have also explained how we disclose personal information to others and how you can exercise your privacy rights in other portions of our Policy.
+
+California Personal Information We Collect
+
+Throughout this Policy, we discuss the specific pieces of personal information we collect from and about our users. Note that the personal information we collect about you may vary depending on the nature of your interactions with us and may include all or some of the examples listed below or additional types of personal information in the categories we identify:
+
+Identifiers and Non-Public Personal Information, such as your full name, contact information, account username, IP address, or government-issued identification.
+
+Commercial Information, such as the history of projects you created or backed and rewards obtained from successful projects.
+
+Inferences, such as information about your project preferences and projects you may be likely to create or back.
+
+Internet Activity Information, such as what you search for on our website or app and other information about how you interact with our website or app.
+
+Geolocation, including approximate location inferred from your IP address.
+
+Audio and Visual Information, such as recorded customer service interactions and photos or videos that you might submit.
+
+Professional Information, such as a Creator’s business name and business tax identification number.
+
+Protected Characteristics, when you choose to provide them, such as race or ethnicity, gender or gender identity, sexual orientation, or age (if you are over 40).
+
+We may disclose any of these categories of personal information to our service providers, Creators, and others as described in the “How We Share Personal Information” and “Personal Information Shared with Creators and Collaborators” sections above.
+
+Kickstarter may process sensitive personal information such as driver’s license number, passport number, information about racial or ethnic origin, information about sexual orientation, and contents of messages between users of Kickstarter. We do not use or disclose sensitive personal information for purposes that would give rise to the right to limit the use and disclosure of this data.
+
+California Privacy Rights
+
+In addition to the rights described in the “Privacy Rights and Choices” section above, California residents may ask us for information about our processing of their personal information, including the categories and sources of personal information, our purposes for processing personal information, and how we disclose personal information to others. 
+
+You, or an authorized agent acting on your behalf, may submit any California privacy rights requests to us by emailing dpo@kickstarter.com. Please include your full name, Kickstarter username, zip code, the email address at which you prefer to be contacted and, if different, the email address associated with your Kickstarter account, and the privacy right(s) you are requesting.
+
+California Notice of Financial Incentives
+
+Kickstarter may choose to offer financial incentives to our users from time to time. If we offer financial incentives to California residents that involve certain uses of personal information, we will provide you with a separate notice regarding the financial incentive when we offer it. This notice will describe the financial incentive offered, including any material terms, how you can participate or withdraw from participation, and information about how any price or service difference offered to you is related to the value of your personal information processed as part of the incentive.
+
+California Shine the Light Law
+
+California’s “Shine the Light” law gives Californians the right to request information from us about how we share personal information with other parties for their direct marketing purposes. Kickstarter does not share your personal information for this purpose.
+
+Notice to Our International Users
+
+Kickstarter, PBC is the data controller responsible for personal information we collect through our website and app. Our Data Protection Officer can be contacted at dpo@kickstarter.com. 
+
+GDPR Data Protection Representative
+
+To exercise your rights under this Privacy Policy, or if you have questions about this policy, contact us at dpo@kickstarter.com. This email address is valid for all inquiries including Kickstarter's designated data protection representatives in the EU, EEA, and UK. If you wish to contact our data protection representatives other than by email, you may do so at the following addresses:
+
+In the European Union or European Economic Area:
+
+DP-Dock GmbH, Attn.: Kickstarter, PBC
+
+Ballindamm 39
+
+20095 Hamburg, Germany
+
+In the United Kingdom:
+
+DP Data Protection Services UK Ltd., Attn.: Kickstarter, PBC
+
+16 Great Queen Street
+
+Covent Garden, London, WC2B 5AH
+
+United Kingdom
+
+International Personal Information Transfers
+
+Kickstarter is based in the United States. If you are using our website or app outside the United States, please be aware that your personal information is being sent to and processed in the United States. The United States has its own laws governing privacy and government access to personal information that we need to comply with. The rules that protect your personal information under United States law are likely different than in your home country. By providing us with your information, you acknowledge and permit our processing of your personal information in the United States. 
+
+Our Legal Bases for Processing Personal Information
+
+When applicable under foreign data protection laws, such as the European Union’s General Data Protection Regulation, Kickstarter relies on the following legal bases for processing personal information:
+
+Obligations to You. We use your personal information to give you information about the projects you create or back, to enable Creators to launch and display their projects, and to allow Backers to find and make pledges to them and obtain rewards.
+
+Our Legal Requirements. Sometimes laws, regulations, and other binding legal obligations say we need to collect and use your personal information. For example, tax laws require us to retain records of pledges and payments made through our Services.
+
+Our Legitimate Interests. This is a legal term in data protection law that means that Kickstarter has a good and fair reason to use your personal information, and we do so in ways that are balanced with your interests and rights. For example, we might rely on our legitimate interests when we process personal information to protect the security and integrity of our website or app or when we personalize information users see on Kickstarter to help our users find the information they want quickly. When we rely on our legitimate interests, we take into account the effects that these actions might have on you. If you have questions about our decisions regarding our legitimate interests, you may contact us.
+
+Your Consent. We may ask for your consent for certain personal information processing. For example, we may rely on your consent to use non-essential cookies or to provide you with marketing communications. When you consent, you may withdraw your consent at any time by contacting us at dpo@kickstarter.com.
+
+In certain countries, you may have the right to file a complaint with a data protection authority if you believe our use of your personal information violates your rights under applicable data protection or privacy law. Although Kickstarter has not independently verified its accuracy, a list of data protection authorities is maintained by the International Association of Privacy Professionals.
+
+Contact Us
+
+To contact our Data Protection Officer with questions about this Policy wherever you are based, whether in the United States or internationally, please email dpo@kickstarter.com. To make privacy requests, including accessing or deleting your data or account, please visit https://legal.kickstarter.com/policies/.
+
+You can contact us in writing at:
+
+Kickstarter, PBC
+228 Park Ave S PMB 59430
+New York, New York 10003-1502
+United States
+
+Contact Support
+Return to Main Site
