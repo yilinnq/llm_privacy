@@ -4,6 +4,7 @@ import requests
 import os
 import regex as re
 import argparse
+import pandas as pd
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 import numpy as np
@@ -13,19 +14,12 @@ from urllib.parse import quote
 dotenv_path = os.path.join(os.path.dirname(__file__), '..', '..', '.env')
 load_dotenv(dotenv_path=dotenv_path)
 
-parser = argparse.ArgumentParser(description="Generate Q&A response.")
-parser.add_argument('--company_name', type=str, choices=[
-    "blackplanet", "bluesky", "bumble", "cato", "chess", "christian_mingle", "clubhouse",
-    "coffee_meets_bagel", "eharmony", "feeld", "friendster", "gab", "gettr",
-    "github", "gofundme", "goodreads", "her", "hinge", "instagram", "jodel", "kickstarter",
-    "likee", "linkedin", "mastodon", "medium", "meetup", "nextdoor", "okcupid", "parler",
-    "pinterest", "quora", "raya", "reddit", "sesearch_gate", "signal", "silver_singles",
-    "slack", "snapchat", "strava", "supernova", "telegram", "tellonym", "threads", "tiktok",
-    "tinder", "truth_social", "tumblr", "twitter_x", "vanatu", "vero", "whatsapp", "yareny", "youtube"
-], required=True, help="The name of the company")
-parser.add_argument('--question', type=str, help="The question to ask about the privacy policy")
-args = parser.parse_args()
-
+# Only create the parser when running as a script, not when imported
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generate Q&A response.")
+    parser.add_argument('--company_name', type=str, required=True, help="The name of the company")
+    parser.add_argument('--question', type=str, help="The question to ask about the privacy policy")
+    args = parser.parse_args()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_API_URL = (
@@ -34,23 +28,56 @@ GEMINI_API_URL = (
 
 BASE_URL = 'https://transparencydb.dev.berkmancenter.org/company/'
 
-
 # embedding model
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
 def load_policy_link(policy_name):
     """
-    Loads the policy link from the JSON file in the data_processing/policy_links folder.
+    Loads the policy link from the privacy_db.csv file.
+    Falls back to policy_links JSON files if needed.
     """
-    json_file_path = os.path.join("../data_processing/policy_links", f"{policy_name}.json")
-    with open(json_file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    if isinstance(data, str):
-        txt_href = data
-    else:
-        raise ValueError(f"Invalid format in {json_file_path}")
-    print("✅ Policy file link found")
-    return txt_href
+    # First try to get the link from the CSV
+    csv_paths = [
+        os.path.join("src", "summary", "privacy_db.csv"),  # If running from root
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "summary", "privacy_db.csv")  # Absolute path
+    ]
+    
+    for csv_path in csv_paths:
+        if os.path.exists(csv_path):
+            try:
+                df = pd.read_csv(csv_path)
+                # Try matching with case-insensitive comparison and handling spaces
+                match = df[df["Platform"].str.lower() == policy_name.lower().replace("_", " ")]
+                
+                if not match.empty:
+                    txt_url = match.iloc[0]["Privacy Policy Txt"]
+                    print(f"✅ Policy file link found in CSV: {txt_url}")
+                    return txt_url
+            except Exception as e:
+                print(f"Error loading from CSV {csv_path}: {str(e)}")
+    
+    # If we couldn't find it in the CSV, try the JSON files as fallback
+    possible_paths = [
+        os.path.join("../data_processing/policy_links", f"{policy_name}.json"),  # If running from qa dir
+        os.path.join("src/data_processing/policy_links", f"{policy_name}.json"),  # If running from root
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "../data_processing/policy_links", f"{policy_name}.json")  # Absolute path
+    ]
+    
+    for json_file_path in possible_paths:
+        if os.path.exists(json_file_path):
+            try:
+                with open(json_file_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                if isinstance(data, str):
+                    txt_href = data
+                    print(f"✅ Policy file link found in JSON: {txt_href}")
+                    return txt_href
+                else:
+                    raise ValueError(f"Invalid format in {json_file_path}")
+            except Exception as e:
+                print(f"Error loading {json_file_path}: {str(e)}")
+    
+    raise FileNotFoundError(f"Could not find policy file for {policy_name}. Make sure the platform exists in privacy_db.csv or has a corresponding JSON file.")
 
 def load_document(txt_href):
     """
@@ -145,7 +172,6 @@ def generate_answer(question, context_chunks):
     if not answer:
         raise Exception("No answer found in the Gemini API response.")
     return answer
-
 
 # def extract_reference_snippet(answer_text):
 #     """

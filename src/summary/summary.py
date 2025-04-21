@@ -56,7 +56,7 @@ QUESTIONS = {
     "d. User rights and choices": "What rights or choices do users have?",
     "e. Data storage and security": "How is data stored and protected?",
     "f. Use of cookies and tracking technologies": "How are cookies or tracking technologies used?",
-    "g. Other important information": "Is there any other important info, such as children’s privacy or policy changes?"
+    "g. Other important information": "Is there any other important info, such as children's privacy or policy changes?"
 }
 
 # ==== Step 4: Vectorize and select relevant chunks ====
@@ -127,7 +127,21 @@ Please Provide a logical and organized answer grounded in the original text and 
     return "\n\n".join(final_summary), "\n\n".join(references), original_url
 
 # ==== Step 6: Load from CSV and run ====
-def summarize_policy_for_platform(platform_name, csv_path="privacy_db.csv"):
+def summarize_policy_for_platform(platform_name, csv_path=None):
+    if csv_path is None:
+        # Try to determine the correct path
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        default_csv = os.path.join(script_dir, "privacy_db.csv")
+        
+        if os.path.exists(default_csv):
+            csv_path = default_csv
+        else:
+            # Try a relative path
+            csv_path = os.path.join("src", "summary", "privacy_db.csv")
+    
+    if not os.path.exists(csv_path):
+        raise FileNotFoundError(f"Could not find privacy_db.csv at {csv_path}")
+        
     df = pd.read_csv(csv_path)
     match = df[df["Platform"].str.lower() == platform_name.lower()]
 

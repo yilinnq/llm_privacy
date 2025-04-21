@@ -35,10 +35,40 @@
 
 - Clone the repo
 - Add an `.env` file at the root of the repository containing: `GEMINI_API_KEY=`
+- Install the required dependencies:
+  ```
+  pip install -r requirements.txt
+  ```
+
+## 📱 Combined Application
+
+We've created a unified Streamlit application that combines all three features into a single interface:
+
+```bash
+streamlit run app.py
+```
+
+This will launch a web application with three tabs:
+1. **Policy Q&A** - Ask specific questions about a platform's privacy policy
+2. **Policy Summary** - Get a structured summary of a platform's privacy policy
+3. **Policy Comparison** - Compare privacy policies between two platforms
+
+### Data Source
+
+All features use a single data source: the `privacy_db.csv` file located in `src/summary/`. This CSV file contains links to privacy policy documents stored on Google Cloud Storage. Using a unified data source ensures consistency across all features and makes it easier to maintain the application.
+
+<p align="center">
+  <figure>
+    <img src="screenshots/combined_app.png" width="800" title="Combined Privacy Policy Analysis Tool">
+    <figcaption align="center"><i>Combined Privacy Policy Analysis Tool</i></figcaption>
+  </figure>
+</p>
 
 ---
 
-## 🔧 Functionalities
+## 🔧 Individual Functionalities
+
+You can also use each feature separately:
 
 ### ❓ User Q&A
 

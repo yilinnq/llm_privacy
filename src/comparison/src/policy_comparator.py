@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from src.text_processor import TextProcessor
+from .text_processor import TextProcessor
 from typing import Dict, List
 
 class PolicyComparator:
