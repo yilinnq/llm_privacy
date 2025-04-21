@@ -286,8 +286,7 @@ with tab1:
                     st.subheader("Answer:")
                     st.markdown(f"""
                     <div style="background-color: #F0F9FF; padding: 20px; border-radius: 10px; border-left: 5px solid #2563EB; margin-bottom: 20px;">
-                    {answer}
-                    </div>
+                    {answer}</div>
                     """, unsafe_allow_html=True)
                     
                     st.markdown(f"**Source:** [Link to Privacy Policy]({txt_href})")
@@ -335,8 +334,17 @@ with tab2:
 
 # Tab 3: Policy Comparison Feature
 with tab3:
-    st.markdown('<div class="feature-header">Compare Privacy Policies</div>', unsafe_allow_html=True)
-    st.write("Analyze and compare the privacy policies of two different platforms side by side.")
+    st.markdown("""
+        <style>
+            .single-line-title {
+                white-space: nowrap;
+                font-size: 2rem;
+                font-weight: bold;
+                padding-bottom: 1rem;
+            }
+        </style>
+        <div class='single-line-title'>📑 Cross-App Privacy Policy Comparison</div>
+    """, unsafe_allow_html=True)
     
     # Check if data is available for comparison
     if not platforms:
@@ -345,27 +353,24 @@ with tab3:
         col1, col2 = st.columns(2)
         
         with col1:
-            platform_a = st.selectbox("First Platform", platforms, key="platform_a")
+            platform_a = st.selectbox("Select the first platform", platforms, key="platform_a")
         
         with col2:
             # Select a different default for platform B
             default_b_index = 1 if len(platforms) > 1 else 0
-            platform_b = st.selectbox("Second Platform", platforms, index=default_b_index, key="platform_b")
+            platform_b = st.selectbox("Select the second platform", platforms, index=default_b_index, key="platform_b")
         
-        col1, col2 = st.columns([1, 3])
-        with col1:
-            compare_button = st.button("🔄 Compare Policies", key="compare_btn")
+        comparator = PolicyComparator(api_key=os.getenv('GEMINI_API_KEY'))
         
-        if compare_button:
+        if st.button("Compare Policies 🚀", key="compare_btn"):
             if platform_a != platform_b:
                 try:
-                    with st.spinner('🔄 Comparing privacy policies...'):
-                        comparator = PolicyComparator(api_key=os.getenv('GEMINI_API_KEY'))
-                        
+                    with st.spinner('Comparing privacy policies...'):
                         result = comparator.compare_policies_gemini(platform_a, platform_b, policy_df)
                         
                         st.subheader(f"🔍 Comparing {platform_a} and {platform_b} Privacy Policies")
                         
+                        # Render clickable citations
                         comparison_md = result['comparison']
                         for citation_id in result['citations_a']:
                             comparison_md = comparison_md.replace(
@@ -379,11 +384,7 @@ with tab3:
                                 f"[{citation_id}](#{citation_id.lower()})"
                             )
                         
-                        st.markdown(f"""
-                        <div style="background-color: #F0F9FF; padding: 20px; border-radius: 10px; border-left: 5px solid #2563EB; margin-bottom: 20px;">
-                        {comparison_md}
-                        </div>
-                        """, unsafe_allow_html=True)
+                        st.markdown(comparison_md, unsafe_allow_html=True)
                         
                         with st.expander(f"📝 Citations for {platform_a}"):
                             for citation_id, text in result['citations_a'].items():
@@ -399,6 +400,20 @@ with tab3:
                     st.error("Please make sure you have set the GEMINI_API_KEY in your .env file and that privacy_db.csv is correctly loaded.")
             else:
                 st.error("⚠️ Please select two different platforms for comparison.")
+
+# Citation CSS
+st.markdown("""
+    <style>
+        .citation {
+            color: #0645AD;
+            text-decoration: underline;
+            cursor: help;
+        }
+        .citation:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
