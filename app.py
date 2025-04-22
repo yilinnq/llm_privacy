@@ -23,6 +23,8 @@ import pandas as pd
 import sys
 import os
 from dotenv import load_dotenv
+import html
+import re
 import argparse
 import subprocess
 import json
@@ -42,7 +44,8 @@ if comparison_src_dir not in sys.path:
 from src.comparison.src.policy_loader import load_policies
 from src.comparison.src.policy_comparator import PolicyComparator
 from src.qa.qa import load_policy_link, load_document, chunk_text, build_index, retrieve_relevant_chunks, generate_answer
-from src.summary.summary import summarize_policy_for_platform
+from src.summary.summary import summarize_policy_for_platform, format_summary_for_html, format_reference_quotes
+
 
 # Load environment variables
 load_dotenv()
@@ -297,6 +300,8 @@ with tab1:
             st.warning("Please enter a question.")
 
 # Tab 2: Summary Feature
+
+
 with tab2:
     st.markdown('<div class="feature-header">Privacy Policy Summary</div>', unsafe_allow_html=True)
     st.write("Get a comprehensive, structured summary of a platform's privacy policy organized by key topics.")
@@ -313,12 +318,14 @@ with tab2:
             with st.spinner('🔄 Generating privacy policy summary...'):
                 # Call the summary function
                 summary, refs, link = summarize_policy_for_platform(summary_platform)
+                formatted_summary_html = format_summary_for_html(summary)
+                formatted_refs_html = format_reference_quotes(refs)
                 
                 if summary:
                     st.subheader(f"Privacy Summary for {summary_platform}")
                     st.markdown(f"""
                     <div style="background-color: #F0F9FF; padding: 20px; border-radius: 10px; border-left: 5px solid #2563EB; margin-bottom: 20px;">
-                    {summary}
+                    {formatted_summary_html}
                     </div>
                     """, unsafe_allow_html=True)
                     
@@ -326,7 +333,11 @@ with tab2:
                     st.markdown(f"[View original privacy policy]({link})")
                     
                     with st.expander("View Source References"):
-                        st.markdown(refs)
+                        st.markdown(f"""
+                    <div style="background-color: #F0F9FF; padding: 20px; border-radius: 10px; border-left: 5px solid #2563EB; margin-bottom: 20px;">
+                    {formatted_refs_html}
+                    </div>
+                    """, unsafe_allow_html=True)
                 else:
                     st.error("Could not generate a summary. The platform might not be available.")
         except Exception as e:
