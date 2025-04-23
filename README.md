@@ -35,7 +35,7 @@
 
 - Clone the repo
 - Add an `.env` file at the root of the repository containing: `GEMINI_API_KEY=`
-- Run `./run.sh` to automatically setup virtual environment & run our app for our three features: 
+- Run `./run.sh` to automatically setup virtual environment & run our app for the following three features: 
   - User Q&A
   - Privacy Policy Summary
   - Policy Comparison Across Platform
@@ -100,3 +100,42 @@ Or just run the script and it will prompt you for a question.
     <figcaption align="center"><i>Example for Q&A - Pinterest</i></figcaption>
   </figure>
 </p>
+
+###  📊 Policy Comparison
+**Description**   
+The Policy Comparison feature allows users to analyze and compare privacy policies between two different platforms side by side.
+
+<p align="center">
+  <figure>
+    <img src="screenshots/comp_ui.png" width="800" title="Feature Interface">
+    <figcaption align="center"><i>Feature Interface</i></figcaption>
+  </figure>
+</p>
+
+**Key Features**
+- Side-by-side comparison of privacy policies from different platforms
+- Comprehensive analysis across critical privacy aspects:
+  - Data collection
+  - Data sharing
+  - User rights
+  - Cookies
+  - Third-party data
+  - Data retention
+  - Security measures
+- Hyperlinked citations to source material for verification
+- Expandable sections showing original privacy policy excerpts
+
+<p align="center">
+  <figure>
+    <img src="screenshots/comp_results.png" width="800" title="Example for Privacy comparison">
+    <figcaption align="center"><i>Example for Privacy comparison - X vs. Whatsapp</i></figcaption>
+  </figure>
+</p>
+
+<p align="center">
+  <figure>
+    <img src="screenshots/comp_ref.png" width="800" title="Reference Example">
+    <figcaption align="center"><i>Reference Example</i></figcaption>
+  </figure>
+</p>
+
