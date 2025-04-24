@@ -139,3 +139,41 @@ The Policy Comparison feature allows users to analyze and compare privacy polici
   </figure>
 </p>
 
+
+###  📊 Policy Summary
+**Description**   
+The Policy Summary feature provides users with a clear, structured overview of a selected platform’s privacy policy. By choosing a platform from the list, users receive a concise summary that highlights the most critical aspects of how their data is handled. 
+
+<p align="center">
+  <figure>
+    <img src="screenshots/sum_ref.png" width="800" title="Feature Interface">
+    <figcaption align="center"><i>Feature Interface</i></figcaption>
+  </figure>
+</p>
+
+**Key Features**
+- Generates a readable, well-structured summary of the selected platform’s privacy policy
+- Summary covers essential aspects of data practices, including:
+  - Types of data collected
+  - Purpose of data collection
+  - Data sharing and disclosure:
+  - User rights and choices:
+  - Data storage and security:
+  - Use of cookies and tracking technologies:
+  - Other important information (such as children’s privacy, changes to the policy etc.):
+
+- Expandable sections showing original privacy policy excerpts as well as link to the link to the full privacy policy page from the original platform for further reading
+
+<p align="center">
+  <figure>
+    <img src="screenshots/sum_ex1.png" width="800" title="Example for Privacy summary">
+    <figcaption align="center"><i>Example for Privacy Summary - chess.com</i></figcaption>
+  </figure>
+</p>
+
+<p align="center">
+  <figure>
+    <img src="screenshots/sum_ex2.png" width="800" title="Reference Example">
+    <figcaption align="center"><i>Reference of Summary Example</i></figcaption>
+  </figure>
+</p>
