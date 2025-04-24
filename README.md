@@ -140,7 +140,7 @@ The Policy Comparison feature allows users to analyze and compare privacy polici
 </p>
 
 
-###  📊 Policy Summary
+###  📝 Policy Summary
 **Description**   
 The Policy Summary feature provides users with a clear, structured overview of a selected platform’s privacy policy. By choosing a platform from the list, users receive a concise summary that highlights the most critical aspects of how their data is handled. 
 
