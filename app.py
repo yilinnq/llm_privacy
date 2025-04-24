@@ -431,7 +431,7 @@ st.markdown("---")
 st.markdown("""
 <footer>
     <div>
-        <p>© 2024 Privacy Policy Analysis Tool | ASML Lab, Berkman Klein Center</p>
+        <p>© 2025 Privacy Policy Analysis Tool | ASML Lab, Berkman Klein Center</p>
         <p>Powered by Gemini AI Models</p>
     </div>
 </footer>
