@@ -18,7 +18,7 @@ genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # ==== Step 2: Constants ====
-TOKEN_LIMIT = 220000  # conservative threshold for Gemini input
+TOKEN_LIMIT = 100000  # conservative threshold for Gemini input
 
 QUESTIONS = {
     "a. Type of data collected": "What types of data are collected?",
