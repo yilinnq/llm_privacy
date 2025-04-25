@@ -162,7 +162,7 @@ The Policy Summary feature provides users with a clear, structured overview of a
   - Use of cookies and tracking technologies:
   - Other important information (such as children’s privacy, changes to the policy etc.):
 
-- Expandable sections showing original privacy policy excerpts as well as link to the link to the full privacy policy page from the original platform for further reading
+- Expandable sections showing original privacy policy excerpts as well as the link to the full privacy policy page from the original platform for further reading
 
 <p align="center">
   <figure>
