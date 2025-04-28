@@ -48,55 +48,37 @@ You can also use each feature separately:
 
 ### ❓ User Q&A
 
-**Description**  
-A pipeline that:
+**Description**
+The Policy Q&A feature allows users to ask a question about a platform and get accurate answers referencing the platform's original privacy policy document.
 
-1. Loads the processed `.txt` version of the policy from the JSON file in `src/data_processing/policy_links`.
-2. Loads and chunks the policy document using the HTML version of the .txt file.
-3. Builds the index and retrieves relevant sections.
-4. Generates the answer using the Gemini API based on a user question.
-5. Outputs:
+ <p align="center">
+  <figure>
+    <img src="screenshots/qa_ui.png" width="800" title="Feature Interface">
+    <figcaption align="center"><i>Feature Interface</i></figcaption>
+  </figure>
+</p>
+
+
+**Key Features**  
+- Loads the processed `.txt` version of the privacy policy
+- Loads and chunks the policy document using the HTML version of the .txt file.
+- Builds the index and retrieves relevant sections.
+- Generates the answer using the Gemini API based on a user question.
+- Outputs:
  - the answer,
  - the relevant part of the privacy policy used to generate the answer,
  - the link to the policy on Transparency Hub.
 
-**Instructions**
-
-```bash
-cd src/qa
-pipenv install
-pipenv run python get_txt_policy.py --company_name="you company choice"
-```
-
-You can enter a user question directly with:
-```bash
-cd src/qa
-pipenv install
-pipenv run python get_txt_policy.py --company_name="you company choice" --question="your question here"
-```
-Or just run the script and it will prompt you for a question.
-
-**Eligible Company Names**
-<details> <summary>Click to view Eligible Company Names</summary>
-"blackplanet", "bluesky", "bumble", "cato", "chess", "christian_mingle", "clubhouse",
-"coffee_meets_bagel", "eharmony", "feeld", "friendster", "gab", "gettr",
-"github", "gofundme", "goodreads", "her", "hinge", "instagram", "jodel", "kickstarter",
-"likee", "linkedin", "mastodon", "medium", "meetup", "nextdoor", "okcupid", "parler",
-"pinterest", "quora", "raya", "reddit", "sesearch_gate", "signal", "silver_singles",
-"slack", "snapchat", "strava", "supernova", "telegram", "tellonym", "threads", "tiktok",
-"tinder", "truth_social", "tumblr", "twitter_x", "vanatu", "vero", "whatsapp", "yareny", "youtube"
-</details>
-
 <p align="center">
   <figure>
-    <img src="screenshots/qa_example.png" width="800" title="Example for Q&A - Tiktok">
+    <img src="screenshots/qa_results1.png" width="800" title="Example for Q&A - Tiktok">
     <figcaption align="center"><i>Example for Q&A - Tiktok</i></figcaption>
   </figure>
 </p>
 
 <p align="center">
   <figure>
-    <img src="screenshots/qa_example2.png" width="800" title="Example for Q&A - Pinterest">
+    <img src="screenshots/qa_results2.png" width="800" title="Example for Q&A - Pinterest">
     <figcaption align="center"><i>Example for Q&A - Pinterest</i></figcaption>
   </figure>
 </p>
